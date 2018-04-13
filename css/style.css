@@ -2,16 +2,14 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #dadada;
+  font-size: 10px;
+}
+
 .container {
   margin: 20px auto;
   width: 90%;
-}
-
-
-body {
-  font-family: system-ui, sans-serif;
-  background-color: #dadada;
-  font-size: 10px;
 }
 
 div {
@@ -30,16 +28,20 @@ div {
   }
 }
 
-h1 {
-  font-size: 1.5em;
+h1, h3 {
+  font-size: 2.5em;
   margin: 0;
-  text-align: center;
 }
 
+h3 {
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: 300;
+}
 
-body {
-  background: #dadada url(images/baku.jpg) no-repeat top center;
-  background: #dadada url(images/london.png) no-repeat top center;
-  background: #dadada url(images/mandrid.jpg) no-repeat top center;
-  background: #dadada url(images/rome.jpg) no-repeat top center;
+.container h1 {
+  background: #dadada url(images/baku.jpg);
+  background: #dadada url(images/london.png);
+  background: #dadada url(images/mandrid.jpg);
+  background: #dadada url(images/rome.jpg);
 }
