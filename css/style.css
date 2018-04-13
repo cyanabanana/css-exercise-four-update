@@ -1,0 +1,45 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 20px auto;
+  width: 90%;
+}
+
+
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #dadada;
+  font-size: 10px;
+}
+
+div {
+  background-color: #dadada;
+  float: left;
+  margin: 1% 0;
+  width: 100%;
+  padding: 20px 25px;
+}
+
+/* code added to create two-column design */
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  text-align: center;
+}
+
+
+body {
+  background: #dadada url(images/baku.jpg) no-repeat top center;
+  background: #dadada url(images/london.png) no-repeat top center;
+  background: #dadada url(images/mandrid.jpg) no-repeat top center;
+  background: #dadada url(images/rome.jpg) no-repeat top center;
+}
